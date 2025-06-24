@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe | Project</title>
+
+  <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+  <div id="center-body">
+    <header id="main-header-container">
+      <h1 id="main-header">TIC TAC TOE</h1>
+    </header>
+
+      <div id="main-body">
+        <section id="board-main">
+        </section>
+      </div>
+
+    <footer id="main-footer">
+      <div id="player-section" class="hidden">
+        <h2 id="footer-header-p1" class=""> P1: X </h2>
+        <hd id="footer-header-divider">|||</hd>
+        <h2 id="footer-header-p2" class=""> P2: O </h2>
+      </div>
+      <div id="player-buttons" class="">
+        <button type="button" id="choose-player1" class="">P1: X </button>
+        <hd id="button-header-divider">|||</hd>
+        <button type="button" id="choose-player2" class="">P2: O </button>
+      </div>
+      <button type="button" id="reset-btn">RESET</button>
+    </footer>
+  </div>
+
+  <div id="history-container">
+    <div id="history-table">
+      <div id="history-header-container">
+        <p id="history-round" class="history-header">#</p>
+        <p id="history-turn" class="history-header">X/O</p>
+        <p id="history-row" class="history-header">R</p>
+        <p id="history-col" class="history-header">C</p>
+      </div>
+      <div id="history-contents">
+        <!-- <p>X</p><p>X</p><p>X</p><p>X</p> -->
+      </div>
+    </div>
+    <div id="button-container">
+      <button type="button" id="prev-round" class="">PREV</button>
+      <button type="button" id="next-round" class="">NEXT</button>
+    </div>
+  </div>
+
+  <script type="module" src="./src/js/main.js"></script>
+</body>
+</html>
